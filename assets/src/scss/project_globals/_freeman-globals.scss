@@ -1,0 +1,826 @@
+/**
+ *
+ * STYLE: FREEMAN GLOBAL
+ *
+ */
+
+ .FL-container {
+
+    width: 80%;
+    margin: auto;
+    padding: 15px 30px;
+ }
+
+ /* ------ Hide default Pagination ---------- */
+ .navigation {
+     display: none !important;
+ }
+
+
+#FL-home-banner-overlap-bg {
+
+    .tve-content-box-background {
+
+        background-size: 100% 100% !important;
+
+        @media (max-width: 767px) {
+
+            background-size: 100% 111% !important;
+            background-position: 0px -144px !important;
+        }
+    }
+}
+
+
+ #responsive-menu-pro-button {
+
+     background: transparent !important;
+
+     @media (max-width: 1199px) {
+
+        top: 62px !important;
+     }
+
+     @media (max-width: 767px) {
+
+        top: 26px !important;
+     }
+
+     .responsive-menu-pro-inner {
+
+         background-color: $primary !important;
+
+         &::before {
+
+             background-color: $primary !important;
+         }
+
+         &::after {
+
+             background-color: $primary !important;
+         }
+     }
+ }
+
+
+
+/* -------------- BANNER CONTENT STYLE START -------------- */
+
+#FL-banner-content-bg {
+
+    @media (max-width: 1920px) {
+
+        top: 256px !important;
+    }
+
+    @media (max-width: 1440px) {
+
+        top: 293px !important;
+    }
+
+    @media (max-width: 1366px) {
+
+        // top: 266px;
+        top: 170px !important;
+        right: 48px;
+    }
+
+    @media (max-width: 767px) {
+
+        top: 164px !important;
+    }
+
+    @media (max-width: 767px) {
+
+        top: 164px !important;
+    }
+
+    @media (max-width: 767px) {
+
+        top: 164px !important;
+    }
+
+    @media (min-height: 768px) {
+
+        // top: 266px;
+        top: 30% !important;
+        right: 48px;
+    }
+
+    // .thrv_contentbox_shortcode {
+    //
+    //     .tve-content-box-background {
+    //
+    //
+    //     }
+    // }
+
+    .tve-content-box-background {
+
+        @media (max-width: 1920px) {
+
+            background-size: 100% 100% !important;
+        }
+
+        @media (max-width: 767px) {
+            background-size: 90% 90% !important;
+        }
+
+        @media (max-width: 540px) {
+            background-size: 100% 100% !important;
+        }
+    }
+
+    .tve-cb {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .thrv-content-box {
+
+        @media (max-width: 766px) {
+
+            max-width: 80% !important;
+            margin: auto !important;
+            // padding-top: 50px !important;
+        }
+
+        @media (max-width: 400px) {
+
+            max-width: 100% !important;
+        }
+    }
+}
+
+/* -------------- BANNER CONTENT STYLE END -------------- */
+
+
+/* ---------- BUTTON STYLE START ---------- */
+.fm-button-fill {
+
+    color: $white;
+    border-radius: 200px;
+    background-color: $cg-button !important;
+    padding: 20px 0px;
+    min-width: 200px;
+    text-align: center;
+
+    &:hover {
+
+        background-color: transparent !important;
+        border: 2px solid $cg-button;
+    }
+}
+
+.fm-button {
+
+    color: $white;
+    border-radius: 200px;
+    border: 2px solid $cg-button;
+    background-color: transparent !important;
+    padding: 20px 0px;
+    min-width: 250px;
+    text-align: center;
+
+    &:hover {
+
+        background-color: $cg-button !important;
+        color: $white;
+    }
+}
+/* ---------- BUTTON STYLE END ---------- */
+
+.view-desktop {
+
+    display: block;
+
+    @media (max-width: 1199px) {
+
+        display: none;
+    }
+}
+
+.view-tab {
+
+    display: none;
+    width: 80%;
+    margin: auto;
+
+    @media (max-width: 1199px) {
+
+        display: block !important;
+    }
+
+    @media (max-width: 766px) {
+
+        display: none !important;
+    }
+}
+
+.view-mb {
+
+    display: none;
+    width: 100%;
+    margin: auto;
+
+    @media (max-width: 765px) {
+
+        display: block !important;
+    }
+}
+
+
+
+/* ---------- TESTIMONIAL STYLE START ----------- */
+
+#FL-our-clients-testimonial {
+
+    .sp-testimonial-free-section {
+
+        .tfree-testimonial-title {
+
+            display: none !important;
+        }
+
+        .slick-dots {
+
+            padding-left: 0px !important;
+            margin-left: 0px !important;
+
+            li {
+
+                button {
+                    background: transparent !important;
+                    border: 1px solid $cg-accent !important;
+                }
+
+                &.slick-active {
+
+                    button {
+
+                        background: $cg-accent !important;
+                    }
+                }
+            }
+        }
+
+        .tfree-client-rating {
+
+            color: $cg-accent !important;
+        }
+    }
+
+    .slick-arrow {
+        display: none !important;
+    }
+}
+
+/* ---------- TESTIMONIAL STYLE END ----------- */
+
+
+
+/* ----------- BOOKING CALENDER STYLE START -----------*/
+
+#FL-booking-calender {
+
+    .tve-cb {
+
+        text-align: center;
+
+        .tve_wp_shortcode {
+
+            width: 70%;
+
+                .wpdevelop {
+
+                    .datepick-inline {
+
+                        border: 0px !important;
+                        box-shadow: none;
+                    }
+
+                    .bk_calendar_frame {
+
+                        margin: auto;
+                        width: 100% !important;
+
+                        #calendar_booking1 {
+
+                            padding: 15px;
+                            border: 1px solid #eee;
+                            background: #fff;
+
+                            .calendar-links {
+
+                                background: transparent !important;
+                                border-bottom: 0px;
+                            }
+
+                            .datepick {
+
+                                .datepick-title-row {
+
+                                    th {
+
+                                        border: 0px;
+                                    }
+                                }
+
+                                td {
+
+                                    border: 1px solid #e8e4de;
+                                    color: #000;
+                                    background-color: #91E2A0;
+                                    text-shadow: none;
+
+                                    &.date2approve {
+
+                                        color: #fff !important;
+                                        // background-color: $cg-button;
+                                    }
+
+                                    &.date2approve {
+
+                                        background: #E29A91;
+                                    }
+                                }
+                            }
+
+                            .date_available {
+
+                                a {
+                                    color: #00bfb9;
+                                }
+                            }
+
+                            .datepick-header {
+
+                                span {
+
+                                    font-weight: 600;
+                                    font-size: 1.1rem;
+                                    color: #154213;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+    }
+}
+
+/* ----------- BOOKING CALENDER STYLE END -----------*/
+
+
+
+
+/* ------------ OUR WORK STYLE START -------------- */
+
+#FL-our-work {
+
+    .envira-gallery-item {
+
+        img {
+
+            width: 100%;
+        }
+    }
+}
+
+/* ------------ OUR WORK STYLE END -------------- */
+
+
+#general-blog-page-header {
+
+    h1 {
+
+        color: $white;
+    }
+
+    .container-fluid {
+
+        width: 90%;
+        margin: auto;
+    }
+}
+
+
+
+/* CONTACt PAGE STYLE START */
+
+/* -------------- GRAVITY FORM STYLE START -------------- */
+
+#FL-gf-contact-form {
+
+    .gform_wrapper {
+
+        padding: 0px !important;
+
+        .gform_title {
+
+            display: none !important;
+        }
+
+        .gform_fields {
+
+            .gfield {
+
+                .gfield_label {
+
+                    // display: none;
+                }
+
+                .ginput_container {
+
+                    input {
+
+                        margin-top: 0px;
+                        border-radius: 20px;
+                        outline: none;
+
+                        // &::after {
+                        //     content: '*';
+                        //     color: $red;
+                        // }
+                    }
+
+                    textarea {
+
+                        margin-top: 0px;
+                        border-radius: 20px;
+                        height: 100px;
+                        outline: none;
+                    }
+
+                    .gfield_checkbox {
+
+                        li {
+
+                            &:nth-child(even) {
+
+                                float: right;
+                                width: 50%;
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                white-space: nowrap;
+                            }
+
+                            &:nth-child(odd) {
+
+                                float: left;
+                                width: 50%;
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                white-space: nowrap;
+                            }
+
+                            label {
+                                 margin-left: 7px;
+                            }
+                        }
+                    }
+                }
+
+                &.gf_left_half_html{
+
+                    display: table-cell;
+                    width: 34%;
+                    vertical-align: middle;
+
+                    h4 {
+
+                        font-size: 16px;
+                        font-weight: 600;
+                    }
+                }
+
+                &.gf_right_half_input {
+
+                    width: 100%;
+                    vertical-align: middle;
+                    display: flex;
+                    align-items: center;
+
+                    label {
+                        max-width: 40%;
+                        white-space: inherit;
+                    }
+                }
+
+
+
+                &.gf_left_half_html_below {
+
+                    display: inline-block;
+                    width: 50%;
+                    vertical-align: middle;
+                    line-height: 20px;
+
+                    h4 {
+
+                        font-size: 16px;
+                    }
+
+                    span {
+
+                        font-weight: 100;
+                        font-size: 14px;
+                        color: #f00;
+                    }
+                }
+
+                &.gf_right_half_input_below {
+
+                    display: inline-block;
+                    width: 50%;
+                    vertical-align: middle;
+
+                    // .gfield_label {
+                    //
+                    //     display: contents !important;
+                    //     font-weight: 100;
+                    //     font-size: 14px;
+                    //     color: #f00;
+                    // }
+                }
+            }
+
+            ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+              color: #8D8D8D !important;
+              opacity: 1; /* Firefox */
+              font-weight: 300 !important;
+            }
+
+            :-ms-input-placeholder { /* Internet Explorer 10-11 */
+              color: #8D8D8D !important;
+              font-weight: 300 !important;
+            }
+
+            ::-ms-input-placeholder { /* Microsoft Edge */
+              color: #8D8D8D !important;
+              font-weight: 300 !important;
+            }
+        }
+    }
+
+    .gform_footer {
+
+        .gform_button {
+
+            border-radius: 30px;
+            text-indent: 0rem;
+        }
+    }
+}
+
+/* -------------- GRAVITY FORM STYLE END -------------- */
+
+
+
+
+/* -------------- MAP STYLE START -------------- */
+
+#FL-contact-right-info {
+
+    iframe {
+
+        margin: 0px !important;
+    }
+}
+
+/* -------------- MAP STYLE END -------------- */
+
+
+/* CONTACT PAGE STYLE END */
+
+
+
+/* ========== DESIGN and SERVICE PAGE STYLE START ========== */
+
+#FL-design-service-page {
+
+    .FL-hide-tab-mb {
+
+        @media (max-width: 1199px) {
+
+            display: none !important;
+        }
+    }
+
+    .FL-show-tab-mb {
+
+        @media (max-width: 1199px) {
+
+            display: flex !important;
+        }
+    }
+
+    @media (max-width: 1199px) {
+
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    #FL-DS-cascade-image-content {
+
+        @media (max-width: 1199px) {
+
+            width: 100% !important;
+            max-width: 100% !important;
+            padding: 0px !important;
+        }
+
+        .tcb-col {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .tve-cb {
+
+            .thrv-columns {
+
+                &:nth-child(odd) {
+
+                    .tcb-flex-col {
+
+                        position: relative;
+
+                        &:last-child {
+
+                            .tve_image_caption {
+
+                                @media (max-width: 1199px) {
+                                    width: 80px !important;
+                                }
+                            }
+
+                            @media (max-width: 1199px) {
+
+                                margin-bottom: 45px;
+                            }
+                        }
+                    }
+                }
+
+                &:nth-child(even) {
+
+                    .tcb-flex-col {
+
+                        position: relative;
+
+                        &:first-child {
+
+                            .thrv-content-box {
+
+                                .tve_image_caption {
+
+                                    @media (max-width: 1199px) {
+                                        width: 80px !important;
+                                    }
+                                }
+                            }
+
+                            @media (max-width: 1199px) {
+
+                                margin-bottom: 45px;
+                            }
+                        }
+                    }
+                }
+
+                .tcb-flex-row {
+
+                    @media (max-width: 1199px) {
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                    .tcb-flex-col {
+
+                        @media (max-width: 1199px) {
+
+                            max-width: 100% !important;
+                        }
+
+                        .tve_image_caption {
+
+                            @media (max-width: 1199px) {
+                                width: 100% !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ========== DESIGN and SERVICE PAGE STYLE START ========== */
+
+
+
+
+/* ========== LOGIN PAGE STYLE START ========== */
+
+#FL-gf-login {
+
+    .gform_wrapper {
+
+        padding: 0px !important;
+
+        .gform_title {
+
+            display: none !important;
+        }
+
+        .gform_fields {
+
+            .gfield {
+
+                .gfield_label {
+
+                    // display: none;
+                    font-weight: 400;
+                    color: #013300;
+                    font-size: 18px;
+                }
+
+                .ginput_container {
+
+                    input {
+
+                        margin-top: 0px;
+                        border-radius: 50px;
+                        outline: none;
+                        min-height: 50px;
+                    }
+
+                    .gfield_checkbox {
+
+                        li {
+
+                            label {
+
+                                margin-left: 7px;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .gform_footer {
+
+        text-align: center;
+
+        .gform_button {
+
+            border-radius: 30px;
+            text-indent: 0rem;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 18px;
+            min-width: 200px;
+        }
+    }
+}
+
+/* ========== LOGIN PAGE STYLE END ========== */
+
+
+
+/* ========== PORTFOLIO PAGE STYLE START ========== */
+
+
+#FL-app-gallery-portfolio {
+
+    .wpape_gallery_button {
+
+        margin-bottom: 30px;
+
+        a {
+
+            background-color: transparent;
+            border-color: #ff9802;
+            color: #ff9802;
+            border: 1px solid #ff9802;
+
+            &.active {
+
+                border: 1px solid #ff9802 !important;
+                color: white !important;
+                background: #ff9802 !important;
+            }
+        }
+    }
+}
+
+/* ========== PORTFOLIO PAGESTYLE END ========== */
